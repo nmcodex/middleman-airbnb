@@ -1,15 +1,31 @@
 ---
-title: Le Wagon - Middleman
+title: Airbnb - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Airbnb</h1>
+    <p>Your best travel experience</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
+  </div>
+</div>
+
+
+<div class="container">
+  <h3 class="text-center">Suggested flats</h3>
+  <div class="row">
+    <% data.flats.each do |user, flat| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= flat.picture %>);">
+          <div class="card-category"><%= flat.category %></div>
+          <div class="card-description">
+            <h2><%= flat.location %></h2>
+            <p><%= flat.description %></p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/<%= flat.github_nickname %>">
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>

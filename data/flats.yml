@@ -1,0 +1,27 @@
+Saunier:
+  location: Paris
+  category: Popular
+  description: Very cool French city
+  picture: https://kitt.lewagon.com/placeholder/cities/paris
+  github_nickname: ssaunier
+
+Paillard:
+  location: London
+  category: Popular
+  description: Very cool English city
+  picture: https://kitt.lewagon.com/placeholder/cities/london
+  github_nickname: papillard
+
+Metzger:
+  location: Berlin
+  category: Popular
+  description: Very cool German city
+  picture: https://kitt.lewagon.com/placeholder/cities/berlin
+  github_nickname: ssaunier
+
+Daube:
+  location: Shanghai
+  category: New
+  description: Very cool Chinese city
+  picture: https://kitt.lewagon.com/placeholder/cities/shanghai
+  github_nickname: DamienDaube
