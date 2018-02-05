@@ -1,27 +1,28 @@
-Saunier:
-  location: Paris
-  category: Popular
-  description: Very cool French city
-  picture: https://kitt.lewagon.com/placeholder/cities/paris
-  github_nickname: ssaunier
-
-Paillard:
-  location: London
-  category: Popular
-  description: Very cool English city
-  picture: https://kitt.lewagon.com/placeholder/cities/london
-  github_nickname: papillard
-
-Metzger:
-  location: Berlin
-  category: Popular
-  description: Very cool German city
-  picture: https://kitt.lewagon.com/placeholder/cities/berlin
-  github_nickname: ssaunier
-
-Daube:
-  location: Shanghai
-  category: New
-  description: Very cool Chinese city
-  picture: https://kitt.lewagon.com/placeholder/cities/shanghai
-  github_nickname: DamienDaube
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+AlexisPipieri:
+ name: “Alexis’s home”
+ description: “Lovely flat in 11e”
+ city_name: “Paris, France”
+ city_slug: “paris”
+ wifi: true
+ rating: 5
